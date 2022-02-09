@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @ZaneArtesi
 - 🌱 I’m currently studying a Bachelor of Advanced Computing - Majoring in Software Development - Minoring in Business Information Systems
-- 💞️ My account contains a few projects and assignments I have contributed in both in and out of university
+- 💞️ My account contains a few projects and assignments I have contributed towards, both in and out of university
 - 📫 Reach me via email - zane.artesi@hotmail.com
 - :) 
 
