@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Main-Class: NewGameTracker.Launcher
+Class-Path: javafx-graphics-17.0.1.jar mockito-junit-jupiter-2.19.0.jar 
+ junit-jupiter-5.8.2.jar mockito-core-2.19.0.jar junit-jupiter-api-5.8.2
+ .jar junit-jupiter-engine-5.8.2.jar objenesis-2.6.jar javafx-controls-1
+ 7.0.1-win.jar javafx-base-17.0.1.jar byte-buddy-agent-1.8.10.jar opente
+ st4j-1.2.0.jar junit-platform-commons-1.8.2.jar byte-buddy-1.8.10.jar j
+ avafx-graphics-17.0.1-win.jar hamcrest-2.2.jar junit-platform-engine-1.
+ 8.2.jar javafx-base-17.0.1-win.jar junit-jupiter-params-5.8.2.jar
+

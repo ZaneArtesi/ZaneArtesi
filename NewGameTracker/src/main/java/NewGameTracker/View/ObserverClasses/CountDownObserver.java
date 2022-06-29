@@ -6,7 +6,7 @@ import javafx.scene.control.Label;
 
 public class CountDownObserver implements Observer {
     private final AppWindow view;
-    private Label countDownLabel;
+    private final Label countDownLabel;
 
     public CountDownObserver(AppWindow view) {
         this.view = view;
@@ -19,7 +19,7 @@ public class CountDownObserver implements Observer {
         int secondsLeft = this.view.getModel().getSecondsLeft();
         int minutesLeft = secondsLeft / 60;
         int secondsLeftOver = secondsLeft % 60;
-        String timeLeft = minutesLeft + " : " + secondsLeftOver;
+        String timeLeft = minutesLeft + " : " + String.format("%02d", secondsLeftOver);
         this.countDownLabel.setText(timeLeft);
     }
 

@@ -8,12 +8,7 @@ import javafx.scene.control.Label;
 import javafx.scene.control.ScrollPane;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.*;
-import javafx.scene.paint.Color;
-
 import java.util.HashMap;
-
-import static javafx.scene.paint.Color.RED;
-
 
 public class BuildPlayerRosterScene implements SceneBuild{
 
@@ -82,7 +77,7 @@ public class BuildPlayerRosterScene implements SceneBuild{
     }
 
     public void submitTeam(VBox leftSide, VBox rightSide) {
-        HashMap<Integer, String> playerList = new HashMap<Integer, String>();
+        HashMap<Integer, String> playerList = new HashMap<>();
         boolean inputError = false;
 
         TextField playerNumber;
@@ -94,8 +89,8 @@ public class BuildPlayerRosterScene implements SceneBuild{
             try {
                 playerList.put(Integer.parseInt(playerNumber.getText()), playerName.getText());
             } catch (NumberFormatException f) {
-                ((TextField) leftSide.getChildren().get(i)).setStyle("-fx-background-color: red;");
-//                inputError = true;
+                leftSide.getChildren().get(i).setStyle("-fx-background-color: red;");
+                inputError = true;
             }
         }
 

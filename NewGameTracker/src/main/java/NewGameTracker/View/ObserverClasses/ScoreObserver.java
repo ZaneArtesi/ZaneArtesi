@@ -7,7 +7,7 @@ import javafx.scene.control.Label;
 public class ScoreObserver implements Observer {
 
     private final AppWindow view;
-    private Label label;
+    private final Label label;
     private final boolean type;
 
     public ScoreObserver(AppWindow view, boolean type) {
