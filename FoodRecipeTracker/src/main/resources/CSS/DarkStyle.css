@@ -1,0 +1,15 @@
+
+
+
+.root{
+    -fx-background-color: grey;
+}
+
+.table-view{
+     -fx-background-color: transparent;
+}
+
+.table-row-cell{
+    -fx-background-color: grey;
+    -fx-text-background-color: white;
+}

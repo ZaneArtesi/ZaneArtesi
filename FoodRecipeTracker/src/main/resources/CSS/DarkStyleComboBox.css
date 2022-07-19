@@ -1,0 +1,10 @@
+.combo-box .list-cell
+{
+    -fx-background: grey;
+    -fx-text-fill: white;
+}
+
+.combo-box .list-view .list-cell {
+    -fx-background: grey;
+    -fx-text-fill: white;
+}
